@@ -1,0 +1,67 @@
+body {
+    background-image: url("../yoda-star-wars-lightsaber-jedi-wallpaper-preview.jpg");
+}
+
+.main_navigation {
+    padding-top: 30px;
+}
+
+.main_navigation .navigation_buttons {
+    display: flex;
+    justify-content: space-evenly;
+    border: solid 5px;
+    padding: 10px;
+    background: rosybrown;
+}
+
+.main_navigation .navigation_buttons .navigation_btm {
+    width: 100px;
+    height: 50px;
+    background-color: #00a046;
+    border: solid 4px black;
+    font-size: 18px;
+    font-family: cursive;
+    font-weight: bolder;
+    color: white;
+}
+
+.main_body {
+    padding-top: 30px;
+}
+
+.main_body .body_info {
+    padding: 10px;
+    border: solid 4px black;
+    background: rosybrown;
+}
+
+.main_body .body_slide {
+    display: flex;
+    justify-content: space-around;
+}
+
+.btm_body {
+    margin-top: 10px;
+    width: 100px;
+    height: 40px;
+    border: solid 4px black;
+    font-size: 18px;
+    font-family: cursive;
+    font-weight: bolder;
+    background: darkgoldenrod;
+}
+
+.menu {
+    display: contents;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.name_person {
+    border: solid 4px black;
+    margin-bottom: 5px;
+    justify-content: center;
+    display: block;
+}
